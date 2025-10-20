@@ -46,7 +46,7 @@ def main():
                 total += y.numel()
         return correct/total
 
-    EPOCHS = 3  # 减少训练轮数，测试用
+    EPOCHS = 3  
     for epoch in range(1, EPOCHS+1):
         model.train()
         total_loss = 0

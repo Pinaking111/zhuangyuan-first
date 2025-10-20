@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from bigram_model import BigramModel  
+from app.bigram_model import BigramModel
 import spacy
-nlp = spacy.load("en_core_web_md")   
+nlp = spacy.load("en_core_web_md")
 
 app = FastAPI()
 
